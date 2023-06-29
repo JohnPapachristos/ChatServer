@@ -6,6 +6,8 @@ public class Message {
 	private String sender;
 	private String receiverName;
 	private String message;
+	private String date;
+    private Status status;
 	
 	public String getSender() {
 		return sender;
@@ -24,5 +26,17 @@ public class Message {
 	}
 	public void setMessage(String message) {
 		this.message = message;
+	}
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	public Status getStatus() {
+		return status;
+	}
+	public void setStatus(Status status) {
+		this.status = status;
 	}
 }
